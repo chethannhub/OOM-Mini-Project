@@ -11,13 +11,13 @@ export default function CTASection() {
           Ready to Never Hunt for Parking Again?
         </h2>
         <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto">
-          Join thousands of drivers saving time and reducing stress with ParkNow
+          Join thousands of drivers saving time and reducing stress with ParkGrid
         </p>
         <Button 
           size="lg" 
           className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg h-12 w-full sm:w-auto"
         >
-          Download ParkNow Now <ArrowRight className="ml-2 w-5 h-5" />
+          Download ParkGrid Now <ArrowRight className="ml-2 w-5 h-5" />
         </Button>
       </div>
     </section>

@@ -13,7 +13,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
                 <MapPin className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="font-bold text-lg">ParkNow</span>
+              <span className="font-bold text-lg">ParkGrid</span>
             </div>
             <p className="text-sm text-muted-foreground">Making parking hassle-free for everyone</p>
           </div>
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2025 ParkNow. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2025 ParkGrid. All rights reserved.</p>
           <div className="flex gap-6">
             {["Twitter", "Facebook", "Instagram"].map((social, i) => (
               <Link key={i} href="#" className="text-sm text-muted-foreground hover:text-foreground transition">

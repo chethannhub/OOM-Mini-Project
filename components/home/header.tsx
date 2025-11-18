@@ -14,7 +14,7 @@ export default function Header() {
               <MapPin className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              ParkNow
+              ParkGrid
             </span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
